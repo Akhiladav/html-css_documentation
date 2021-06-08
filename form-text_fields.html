@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width:50%;
+            padding:1rem;
+            display:block;
+
+        }
+        textarea{
+            resize:none;
+
+        }
+        datalist{
+            width:50%;
+
+        }input{
+            display:block;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="number">
+        <input type="password">
+        <input type="date">
+        <input type="email" typeholder="enter email">
+        <textarea cols="30" rows="10"></textarea> 
+        <input type="text" list="countries">
+        <datalist id="countries">
+            <option>australia</option>
+            <option>canada</option>
+            <option>india</option>
+            <option>usa</option>
+        </datalist> 
+        <select>
+            <optgroup>
+                <option value=""></option>
+            <option value="1"><html>html</option>
+            <option value="2">css</option>
+            <option value="3">js</option>
+            </optgroup>
+            <optgroup>
+
+            </fieldset>
+                <option value="1">markup</option>
+                <option value="2">styling</option>
+                <option value="3">functionality</option>
+            </optgroup></select> 
+            <input type="checkbox"  id="">
+            <label for="frontend">front end</label>
+            <input type="checkbox"  id="">
+            <label for="backend">back end</label>
+            <div>
+                <input type="radio" name="menvership" id="silver" >
+                <label for="silver"class="label-inline">silver</label>
+                <input type="radio" name="menvership" id="gold" >
+                <label for="silver"class="label-inline">gold</label>
+                
+            </div>
+            <div>
+                <input type="range">
+            </div>
+            <div>
+                <input type="file"multiple accept=".jpg">
+            </div>
+            <fieldset>
+                <legend> billing address </legend>
+                    <input type="text">
+                    <input type="text">
+               </fieldset>
+               <button type="submit">submit</button>
+    </form>
+</body>
+</html>

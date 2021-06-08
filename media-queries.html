@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: column;
+
+        }
+        .box{
+            background-color: gold;
+            padding: 1rem;
+
+        }
+        .box:nth-of-type(2){
+            background-color: blue;
+
+
+        }
+        @media screen and (min-width: 600px){
+            .container{
+                flex-direction: row;
+                
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam similique ullam omnis libero necessitatibus, cum asperiores minima vel mollitia. Neque exercitationem accusamus tempora voluptatum ducimus nisi corrupti autem debitis. Facilis.</p>
+        </div>
+        <div class="box">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae dolor id laboriosam quaerat enim delectus ea quas nulla illum, molestiae molestias, eum et saepe praesentium sunt, iusto ut voluptates tempore?</p>
+        </div>
+    </div>
+</body>
+</html>

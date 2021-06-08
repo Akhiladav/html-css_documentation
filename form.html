@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           line-height: 1.5;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding:2rem;
+        }
+        label{
+            display:block;
+
+        }
+        .form-group{
+            margin-bottom: 1rem ;
+        }
+        input[type="text"],input[type="email"]{
+            border:1px solid #ccc;
+            border-radius:5px;
+            padding: 0.5rem 0.7rem;
+            transition: border-color 0.15s,box-shadow 0.15s;
+            
+
+
+        }
+        input[type="text"]:focus,input[type="email"]:focus{
+         outline:0;
+            box-shadow:0 0 0 4px gold;   
+        }
+        button{
+            background-color: blue ;
+            color: white;
+            border:0;
+            padding:1rem;
+            border-radius: 0.5rem;
+            
+
+
+    
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="form-group">
+         <label for="name">Name</label>
+<input id="namet ype="text">   
+        </div>
+        <div class="form-group">
+          <label for="email">email</label>
+<input id="email" type="text">  
+        </div>
+        <div>
+            <button type="submit">register</button>
+            <button type="reset">clear</button>
+        </div>
+    </form>
+</body>
+</html>

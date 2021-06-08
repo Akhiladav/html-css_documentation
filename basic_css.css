@@ -1,0 +1,31 @@
+
+body{
+    margin:10px;
+
+}
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+.box{
+    width:600px;
+    height:200px;
+    background:gold;
+    padding:20px;
+    border:10px solid orange;
+    border-bottom:20px solid orange;
+    border-width:10px 20px 10px 20px;
+    border-radius:50x;
+
+}
+.box1{
+    border:3px solid gold;
+    width: 50%;/* it means the width is 50 % of the parent */
+    height: 150px;
+    overflow: hidden auto;
+    border-top: 3px solid orange;
+
+     
+}
+
